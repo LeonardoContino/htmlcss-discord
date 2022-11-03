@@ -170,10 +170,19 @@ h2{
 }
 .tech{
   text-align: center;
-  padding-top: 30px;
+  padding: 30px;
+  
+}
+.star{
+  width: 500px;
+  margin: auto;
+  background-image: url(img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .hg-big{
-  height: 1000px;
+  height: 1100px;
 }
 
 .flex > .full-col {
