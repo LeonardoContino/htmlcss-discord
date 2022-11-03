@@ -103,7 +103,8 @@ h1{
   padding-bottom: 50px;
 }
 h3{
-  font-size: smaller;
+  font-size: normal;
+  
 }
 .download{
   background-color: white;
@@ -131,7 +132,7 @@ h3{
 /* # Main & sections */
 section {
   padding: 50px;
-  height: 600px;
+  height: 800px;
 }
 
 section > .container {
@@ -142,16 +143,61 @@ section > .container {
   flex-basis: 40%;
   
 }
+h2{
+  font-size: 50px;
+  padding-bottom: 30px;
+}
 
 .flex > .large-col {
   flex-basis: 60%;
+  
+  
+}
+.invite{
   background-image: url(img/item1.svg);
-  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.where{
+  background-image: url(img/item2.svg);
+  background-repeat: no-repeat;
+
+}
+.fandom{
+  background-image: url(img/item3.svg);
+  background-repeat: no-repeat;
+
+}
+.tech{
+  text-align: center;
+  padding-top: 30px;
+}
+.hg-big{
+  height: 1000px;
 }
 
 .flex > .full-col {
-  flex-basis: 100%;
-  background-color: darkgreen;
+  align-items: center;
+ 
+}
+
+.big-img{
+  background-image: url(img/item4-big.svg);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.last-dl{
+  margin-top: 20px;
+  
+  justify-content: center;
+}
+.for-mac{
+  background-color: #8FA1E1;
+  border-radius: 50px;
+  padding: 10px;
+  color: white;
 }
 
 /* # Footer */
@@ -160,6 +206,12 @@ footer {
   padding: 50px;
   background-color: #23272a;
   /* color: white; */
+}
+.footer-left > h2{
+  color: #8FA1E1;
+}
+.language{
+ 
 }
 
 .footer-top {
