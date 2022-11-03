@@ -216,7 +216,11 @@ footer {
 .brand > nav{
   padding: 10px;
 }
-
+.itaimg{
+  width: 24px;
+  height: 16px;
+  margin-right: 8px;
+}
 
 .footer-top {
   height: 600px;
