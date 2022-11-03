@@ -210,8 +210,11 @@ footer {
 .footer-left > h2{
   color: #8FA1E1;
 }
-.language{
- 
+.brand{
+  display: flex;
+}
+.brand > nav{
+  padding: 10px;
 }
 
 .footer-top {
