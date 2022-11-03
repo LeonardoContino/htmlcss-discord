@@ -38,7 +38,9 @@ body {
 }
 
 header {
-  background-color: lightblue;
+  background-image: url(img/jumbo.png);
+  color: white;
+  background-size: cover;
 }
 
 /* # Navbar */
@@ -54,35 +56,77 @@ header {
 .navbar > * {
   padding: 10px;
   flex-basis: 20%;
-  background-color: goldenrod;
+  
 }
 
 .navbar-menu {
   flex-grow: 1;
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+
+}
+a{
+  color: white;
+  text-decoration: none;
 }
 
 .navbar-actions {
   text-align: right;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  
 }
+.signin{
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+}
+
 
 /* # Jumbotron */
 
 .jumbotron {
   padding: 50px;
   height: 500px;
-  background-color: darkblue;
-
   display: flex;
   justify-content: center;
 }
 
 .jumbotron .content {
-  width: 50%;
-  /* height: 100%; */
-  /* margin: 0 auto; */
-  background-color: violet;
+  width: 60%;
+  text-align: center;
 }
+h1{
+  font-size: 50px;
+  padding-bottom: 50px;
+}
+h3{
+  font-size: smaller;
+}
+.download{
+  background-color: white;
+  padding: 10px;
+  border-radius: 50px;
+  color: black;
+  flex-wrap: wrap;
+}
+.browser{
+  background-color: black;
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
+  flex-wrap: wrap;
+}
+.dw-browser{
+  margin-top: 30px;
+  justify-content: space-around;
+  
+
+}
+
+
 
 /* # Main & sections */
 section {
@@ -96,12 +140,13 @@ section > .container {
 
 .flex > .small-col {
   flex-basis: 40%;
-  background-color: pink;
+  
 }
 
 .flex > .large-col {
   flex-basis: 60%;
-  background-color: dodgerblue;
+  background-image: url(img/item1.svg);
+  background-size: cover;
 }
 
 .flex > .full-col {
